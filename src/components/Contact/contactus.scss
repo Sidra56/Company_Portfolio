@@ -1,0 +1,48 @@
+.contact{
+  background-color:  rgba(195, 184, 221, 0.562);
+    overflow: hidden;
+}
+div {
+    display: block;
+}
+.contact h1{
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+   
+}
+.contact .contact-logo{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,33%);
+    grid-gap: 5px;
+    justify-content: space-around;
+    padding: 0 2vw;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo .logo1, .logo .logo-subtitle {
+    text-align: center;
+}
+.fa {
+    display: inline-block;
+    
+}
+.contact .contact-logo .logo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+.contact .contact-logo .logo p{
+    text-align: center;
+    color: wheat;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+

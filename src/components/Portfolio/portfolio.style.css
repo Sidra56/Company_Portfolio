@@ -1,0 +1,72 @@
+.portfolio{
+    background-color: #f5f8fd;
+    padding: 100px 0px;
+}
+.portfolio-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+    text-align: center!important;
+}
+.portfolio-title h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 10px;
+    position: relative;
+}
+.portfolio-title h1:before{
+    content: '';
+    left: 45%;
+    position: absolute;
+    height: 2px;
+    right: 47%;
+    bottom: 0px;
+    background-color: #febd01;
+
+}
+.portfolio-buttons{
+    padding-left: 41em;
+}
+.portfolio-buttons .button-div{
+    display: inline;
+}
+ .portfolio-buttons .button-div .buttonn {
+    padding: 0 2vw;
+    height: 7vh;
+    border-radius: 26px;
+    border: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(158,156,156,0);
+    outline: none;
+    margin: 2px 8px;
+    font-family: Teko,sans-serif;
+    font-size: .9rem;
+    min-width: 4vw;
+}
+.buttonActive {
+    background: #d2691e;
+    color: #fff;
+}
+@media only screen and  (max-width:400px){
+    .portfolio-buttons{
+        padding-left: 10em;
+    }
+    .portfolio-buttons .button-div{
+        display: inline;
+    }
+     .portfolio-buttons .button-div .buttonn {
+        padding: 0 2vw;
+        height: 7vh;
+        border-radius: 26px;
+        border: none;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(158,156,156,0);
+        outline: none;
+        margin: 2px 8px;
+        font-family: Teko,sans-serif;
+        font-size: .9rem;
+        min-width: 4vw;
+    }
+}

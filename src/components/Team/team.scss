@@ -1,0 +1,19 @@
+.team{
+   font-family: cursive;
+   .team-title{
+      p{
+        color: wheat;
+      }
+   }
+   .team-img{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .image{
+        h6{
+          color: wheat;
+        }
+      }
+   }
+}

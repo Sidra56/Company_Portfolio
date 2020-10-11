@@ -1,0 +1,40 @@
+.header {
+  .navbar {
+    background-color:  rgba(195, 184, 221, 0.562);
+    .collapse {
+      padding: 0 4rem;
+    }
+    .nav-item .nav-link {
+      font-family: cursive;
+      text-transform: uppercase;
+      font-weight: 550;
+      padding: 1.5rem;
+      font-size: 20px;
+      color: whitesmoke;
+    }
+    .navbar-brand {
+      padding: 0 0rem 0 1rem;
+    }
+    .navbar-nav {  
+      .active a {
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      a:hover {
+        background: blue;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+
+    button {
+      background-color: whitesmoke;
+
+    }
+  }
+}
+

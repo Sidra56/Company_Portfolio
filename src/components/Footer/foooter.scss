@@ -1,0 +1,103 @@
+.footer {
+  background-color: rgba(136, 100, 156, 0.562);
+  padding: 5vw 2vw 0;
+  display: grid;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif div {
+    display: block;
+  }
+
+  hr {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    overflow: hidden;
+    border-width: 3px;
+  }
+
+  .copyright {
+    color: wheat;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family: cursive;
+  }
+
+  .footercontent {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2vh;
+    justify-content: space-around;
+
+    .footercontent-aboutus,
+    .footercontent-follow {
+      display: flex;
+      flex-direction: column;
+    }
+    .title {
+      color: wheat;
+      font-family: cursive;
+      margin: 0;
+      padding: 0 0 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+    h5 {
+      display: block;
+      font-size: 0.83em;
+      margin-block-start: 1.67em;
+      margin-block-end: 1.67em;
+      font-weight: bold;
+    }
+    .footercontent-quick .para:hover {
+      color: purple;
+      cursor: pointer;
+    }
+    .para {
+      width: 22vw;
+      text-align: center;
+    }
+    .footercontent-follow .para:hover {
+      color: purple;
+      cursor: pointer;
+      font-weight: bolder;
+    }
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+    }
+    .fa {
+      display: inline-block;
+    }
+    .footercontent-news {
+      .footercontent-news-part {
+        display: flex;
+
+        .footercontent-news-textbox {
+          height: 7vh;
+          background: transparent;
+          color: #fff;
+          border: 2px solid #c2c2c2;
+          padding: 5px;
+          border-radius: 5px 0 0 5px;
+          outline: none !important;
+        }
+
+        .button {
+          min-height: 6vh;
+          border: none;
+          background: purple;
+          color: #fff;
+          padding: 5px;
+          min-width: 6vw;
+          outline: none !important;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .footer .line {
+      color: #575555;
+    }
+  }
+}
